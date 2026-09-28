@@ -1,0 +1,17 @@
+{
+  "name": "Ru-MACHO ester hydrogenation, flow long run (Prieschl 2020, ESI Table S5)",
+  "mode": "flow",
+  "source": "Prieschl et al., Green Chem., 2020, 22, 5762, ESI Table S5 and extraction protocol. Reported PMI reaction 6, work-up 8, total 14 (Table 3).",
+  "declared_boundary": ["reaction", "workup"],
+  "materials": [
+    {"name": "ethyl 2,2-difluoro-2-phenylacetate", "mass_g": 17.6, "role": "reactant"},
+    {"name": "H2", "mass_g": 0.59, "role": "reactant"},
+    {"name": "Ru-MACHO", "mass_g": 0.0347, "role": "catalyst"},
+    {"name": "NaOMe", "mass_g": 0.957, "role": "reagent"},
+    {"name": "methanol", "volume_mL": 88.0, "role": "solvent"},
+    {"name": "ethyl acetate", "volume_mL": 70.0, "stage": "workup", "role": "extraction"},
+    {"name": "water", "volume_mL": 50.0, "stage": "workup", "role": "wash"}
+  ],
+  "product": {"name": "2,2-difluoro-2-phenylethanol", "mass_g": 13.7, "yield_type": "isolated"},
+  "notes": ["ESI lists water as 44.7 g for 50 mL; pmcor converts the stated volume. Na2SO4 (drying) not quantified in the ESI and not included by the authors."]
+}

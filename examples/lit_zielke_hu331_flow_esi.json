@@ -1,0 +1,18 @@
+{
+  "name": "CBD to HU-331 aerobic oxidation, flow scale-out (Zielke 2025, ESI 2.1)",
+  "mode": "flow",
+  "source": "Zielke et al., Green Chem., 2025, 27, 6787, ESI section 2.1. Feed 1 0.5 M CBD, 1.05 mL/min; Feed 2 1.0 M KOtBu, 1.1 mL/min, both in tBuOH/toluene 6:1; O2 13.0 mLn/min; Feed 3 0.5 M aq. HCl 2.7 mL/min; 180 min; EtOAc 3 x 100 mL; 30.99 g HU-331. Reported PMI reaction 10.1, work-up 27.9, total 37.9 (Table 5).",
+  "declared_boundary": ["reaction", "workup"],
+  "materials": [
+    {"name": "CBD", "mass_g": 29.72, "role": "reactant", "note": "94.5 mmol x 314.47"},
+    {"name": "KOtBu", "mass_g": 22.22, "role": "reagent", "note": "198 mmol x 112.21"},
+    {"name": "O2", "mass_g": 3.34, "role": "reactant", "note": "2340 mLn / 22.414 L/mol x 32.00"},
+    {"name": "tBuOH/toluene 6:1 (feed 1)", "volume_mL": 159, "density": 0.793, "role": "solvent", "assumed": true, "note": "189 mL solution less CBD volume (~30 mL)"},
+    {"name": "tBuOH/toluene 6:1 (feed 2)", "volume_mL": 173, "density": 0.793, "role": "solvent", "assumed": true, "note": "198 mL solution less KOtBu volume (~25 mL)"},
+    {"name": "water (quench)", "volume_mL": 486, "density": 1.0, "stage": "workup", "role": "quench_solvent", "is_water": true},
+    {"name": "HCl", "mass_g": 8.86, "stage": "workup", "role": "reagent"},
+    {"name": "ethyl acetate", "volume_mL": 300, "stage": "workup", "role": "extraction"}
+  ],
+  "product": {"name": "HU-331", "mass_g": 30.99, "yield_type": "isolated"},
+  "notes": ["Solvent volumes by displacement are assumptions; using full solution volumes raises reaction PMI to ~11.6. Na2SO4 not quantified."]
+}

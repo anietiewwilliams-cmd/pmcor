@@ -1,0 +1,17 @@
+{
+  "name": "Ru-MACHO ester hydrogenation, flow (Prieschl 2020)",
+  "mode": "flow",
+  "source": "Prieschl et al., Green Chem., 2020, 22, 5762 (open access). Main-text conditions: ethyl 2,2-difluoro-2-phenylacetate 1.0 M in MeOH, Ru-MACHO 0.065 mol%, NaOMe 0.2 equiv, H2 ~3.3 equiv, 60 °C, 20 bar; 98% isolated. Reported reaction-step PMI = 6.",
+  "basis": "5.00 mmol substrate",
+  "declared_boundary": ["reaction"],
+  "materials": [
+    {"name": "ethyl 2,2-difluoro-2-phenylacetate", "formula": "C10H10F2O2", "mmol": 5.0, "role": "reactant"},
+    {"name": "H2", "formula": "H2", "mmol": 16.5, "role": "reactant"},
+    {"name": "NaOMe", "formula": "CH3ONa", "mmol": 1.0, "role": "reagent"},
+    {"name": "Ru-MACHO", "formula": "C29H31ClNOP2Ru", "mmol": 0.00325, "role": "catalyst"},
+    {"name": "methanol", "volume_mL": 5.0, "role": "solvent", "note": "1.0 M taken per litre of solvent (upper bound); per litre of solution gives ~4.2 mL"}
+  ],
+  "product": {"name": "2,2-difluoro-2-phenylethanol", "formula": "C8H8F2O", "yield_pct": 98, "limiting_mmol": 5.0, "yield_type": "isolated"},
+  "ae_reactants": [{"formula": "C10H10F2O2"}, {"formula": "H2", "coeff": 2}],
+  "notes": ["Validation case: inputs taken only from the published main text; compare with the authors' reported reaction PMI of 6 (Table 3)."]
+}

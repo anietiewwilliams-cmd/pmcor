@@ -1,0 +1,19 @@
+{
+  "name": "Ch3 SRN1 amination — optimized batch",
+  "mode": "batch",
+  "source": "Williams PhD thesis (UConn, 2026), Ch. 3, Section 3.5; 1a + 2a, Li 1.4 equiv, KI 0.5 equiv, THF 0.1 M, red light, sonication, 39 °C, 4 h",
+  "basis": "1.00 mmol 4-fluorobiphenyl",
+  "declared_boundary": ["reaction"],
+  "materials": [
+    {"name": "4-fluorobiphenyl (1a)", "formula": "C12H9F", "mmol": 1.0, "role": "reactant"},
+    {"name": "pyrrolidine (2a)", "formula": "C4H9N", "mmol": 2.5, "role": "reactant"},
+    {"name": "KI", "formula": "KI", "mmol": 0.5, "role": "reagent"},
+    {"name": "Li metal", "formula": "Li", "mmol": 1.4, "role": "reagent"},
+    {"name": "THF", "volume_mL": 10.0, "role": "solvent"}
+  ],
+  "product": {"name": "N-(biphenyl-4-yl)pyrrolidine", "formula": "C16H17N", "yield_pct": 80, "limiting_mmol": 1.0, "yield_type": "assay"},
+  "ae_reactants": [{"formula": "C12H9F"}, {"formula": "C4H9N"}],
+  "energy": [{"device": "ultrasonic bath", "power_W": 80, "duration_h": 4, "source": "nameplate"}],
+  "notes": ["Red-light lamp power not recorded; not included in energy inventory.",
+            "Yield by 1H NMR (1,4-dinitrobenzene internal standard)."]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "LiAlH4 reduction, batch (Prieschl 2020, ESI Table S6)",
+  "mode": "batch",
+  "source": "Prieschl et al., Green Chem., 2020, 22, 5762, ESI Table S6. Reported PMI reaction 10, work-up 41, total 52.",
+  "declared_boundary": ["reaction", "workup"],
+  "materials": [
+    {"name": "ethyl 2,2-difluoro-2-phenylacetate", "mass_g": 15.0, "role": "reactant"},
+    {"name": "LiAlH4", "mass_g": 3.12, "role": "reagent"},
+    {"name": "thf", "volume_mL": 107, "role": "solvent"},
+    {"name": "L-(+)-tartaric acid", "mass_g": 25.0, "stage": "workup", "role": "reagent"},
+    {"name": "water", "volume_mL": 272, "stage": "workup", "role": "wash"},
+    {"name": "mtbe", "volume_mL": 180, "stage": "workup", "role": "extraction"}
+  ],
+  "product": {"name": "2,2-difluoro-2-phenylethanol", "mass_g": 11.0, "yield_type": "isolated"}
+}

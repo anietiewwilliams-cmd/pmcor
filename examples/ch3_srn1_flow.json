@@ -1,0 +1,24 @@
+{
+  "name": "Ch3 SRN1 amination — flow (Table 3.5, entry 5)",
+  "mode": "flow",
+  "source": "Williams PhD thesis, Ch. 3, Section 3.8.5; Q_bottom 0.12 mL/min (1a 0.050 M, KI slurry 0.5 equiv, THF); Q_top 0.18 mL/min (pyrrolidine 0.20 M + solvated electrons, THF); tau 33.3 min; 45% conv., 98% sel.",
+  "basis": "steady-state operation delivering 1.00 mmol 1a",
+  "declared_boundary": ["reaction"],
+  "run_basis": {"solute": "4-fluorobiphenyl (1a)", "mmol": 1.0},
+  "flow_streams": [
+    {"name": "bottom (substrate)", "flow_rate_mL_min": 0.12, "solvent": "THF",
+     "solutes": [{"name": "4-fluorobiphenyl (1a)", "formula": "C12H9F", "conc_M": 0.050, "role": "reactant"},
+                 {"name": "KI", "formula": "KI", "conc_M": 0.025, "role": "reagent"}]},
+    {"name": "top (amine / e-)", "flow_rate_mL_min": 0.18, "solvent": "THF",
+     "solutes": [{"name": "pyrrolidine (2a)", "formula": "C4H9N", "conc_M": 0.20, "role": "reactant"}]}
+  ],
+  "materials": [
+    {"name": "Li metal", "formula": "Li", "mmol": 1.4, "role": "reagent", "assumed": true,
+     "note": "Li loading of the top stream not reported; batch stoichiometry (1.4 equiv) assumed. Mass effect negligible."}
+  ],
+  "product": {"name": "N-(biphenyl-4-yl)pyrrolidine", "formula": "C16H17N", "yield_pct": 44.1, "limiting_mmol": 1.0, "yield_type": "assay"},
+  "ae_reactants": [{"formula": "C12H9F"}, {"formula": "C4H9N"}],
+  "energy": [],
+  "notes": ["Energy of solvated-electron pre-generation (Schlenk sonication), peristaltic pump and red-light photoreactor not logged.",
+            "Crude contains 55% unreacted 1a; product isolation still requires separation from a neutral arene."]
+}

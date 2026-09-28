@@ -1,0 +1,61 @@
+{
+  "name": "Ch4 anti-Markovnikov hydroamination (2-MeTHF)",
+  "mode": "batch",
+  "source": "Williams PhD thesis, Ch. 4, Sections 4.4-4.5; 4-methylstyrene + pyrrolidine 1.5 equiv, Li 1.0 equiv, 2-MeTHF 0.25 M, sonication, rt, 30 min",
+  "basis": "1.00 mmol 4-methylstyrene",
+  "declared_boundary": [
+    "reaction"
+  ],
+  "materials": [
+    {
+      "name": "4-methylstyrene",
+      "formula": "C9H10",
+      "mmol": 1.0,
+      "role": "reactant"
+    },
+    {
+      "name": "pyrrolidine",
+      "formula": "C4H9N",
+      "mmol": 1.5,
+      "role": "reactant"
+    },
+    {
+      "name": "Li metal",
+      "formula": "Li",
+      "mmol": 1.0,
+      "role": "reagent"
+    },
+    {
+      "name": "2-MeTHF",
+      "volume_mL": 4.0,
+      "role": "solvent"
+    }
+  ],
+  "product": {
+    "name": "1-(4-methylphenethyl)pyrrolidine",
+    "formula": "C13H19N",
+    "yield_pct": 99,
+    "limiting_mmol": 1.0,
+    "yield_type": "isolated"
+  },
+  "ae_reactants": [
+    {
+      "formula": "C9H10"
+    },
+    {
+      "formula": "C4H9N"
+    }
+  ],
+  "energy": [
+    {
+      "device": "ultrasonic bath",
+      "power_W": 80,
+      "duration_h": 0.5,
+      "source": "nameplate"
+    }
+  ],
+  "notes": [
+    "Isolated by preparative TLC; purification inputs not inventoried.",
+    "Sonicator rating taken as 80 W, as for the amination work (Ch. 3)."
+  ]
+}

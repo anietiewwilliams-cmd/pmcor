@@ -1,0 +1,21 @@
+{
+  "name": "(Fluoromethoxy)benzene, gram-scale SMBR run (Pieber 2018)",
+  "mode": "flow",
+  "source": "Pieber et al., Angew. Chem. Int. Ed., 2018, 57, 9976; ESI section 7.5 (large-scale synthesis) and 6.1 (catalyst slurry). 16 mmol phenoxyacetic acid + Selectfluor (3 equiv.) in 80 mL acetone:H2O (3:1); 5 catalyst syringes, each 102 mg CMB-C3N4 in 5.04 mL [Bmim]BF4 + 0.96 mL H2O; 420 nm, rt, 6.5 h; 1.637 g isolated (81%).",
+  "basis": "entire gram-scale run",
+  "declared_boundary": ["reaction"],
+  "materials": [
+    {"name": "phenoxyacetic acid", "formula": "C8H8O3", "mass_g": 2.43, "role": "reactant"},
+    {"name": "Selectfluor", "formula": "C7H14B2ClF9N2", "mass_g": 17.0, "role": "reagent"},
+    {"name": "acetone", "volume_mL": 60, "role": "solvent"},
+    {"name": "water", "volume_mL": 20, "role": "solvent"},
+    {"name": "CMB-C3N4", "mass_g": 0.51, "role": "catalyst", "recovered_fraction": 1.0, "waste_class": "solid"},
+    {"name": "[Bmim]BF4 (slurry medium)", "volume_mL": 25.2, "density": 1.21, "role": "solvent", "chem21": "Not ranked", "recovered_fraction": 0.94},
+    {"name": "water (slurry)", "volume_mL": 4.8, "role": "solvent", "solvent_key": "water", "is_water": true}
+  ],
+  "product": {"name": "(fluoromethoxy)benzene", "formula": "C7H7FO", "mass_g": 1.637, "yield_type": "isolated"},
+  "ae_reactants": [{"formula": "C8H8O3"}, {"formula": "C7H14B2ClF9N2"}],
+  "notes": ["Start-up carrier solvent (LP2, 0.3 mL/min until steady state) not quantified; excluded.",
+            "Workup volumes are given only for the 0.7 mmol scale (ESI 7.2); not scaled here.",
+            "Recovery fractions from ESI 7.2: catalyst quantitative, [Bmim]BF4 94%."]
+}

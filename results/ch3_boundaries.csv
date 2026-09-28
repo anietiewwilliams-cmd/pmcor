@@ -1,0 +1,5 @@
+scenario,batch_PMI,flow_PMI,flow/batch,symmetric,warnings
+A. Reaction step,52.238750957150984,458.36686300072114,8.774460617879209,True,
+"B. Asymmetric (batch + column, flow + none)",453.0107408012753,458.36686300072114,1.011823388977427,False,"Asymmetric boundaries: batch + column=['reaction', 'purification'], Ch3 SRN1 amination — flow (Table 3.5, entry 5)=['reaction']. Ratios compare unlike systems."
+C. Both + extraction,199.78553381037884,726.0254259997741,3.6340240064071003,True,
+D. Both + column,453.0107408012753,1185.3908808585431,2.6166948685628295,True,

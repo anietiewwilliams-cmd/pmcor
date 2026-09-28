@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "pmcor: boundary-aware green metrics for flow chemistry records"
+version: 0.1.0
+date-released: 2026-09-28
+license: MIT
+authors:
+  - family-names: Williams
+    given-names: Anietie W.
+    affiliation: "Department of Chemistry, University of Connecticut"
+  - family-names: Wariri
+    given-names: Faith M.
+    affiliation: "Department of Computer Science and Engineering, University of Connecticut"
+  - family-names: Gilmore
+    given-names: Kerry M.
+    affiliation: "Institute of Materials Science, University of Connecticut"
+keywords: [green chemistry, flow chemistry, process mass intensity, green metrics, sustainability]

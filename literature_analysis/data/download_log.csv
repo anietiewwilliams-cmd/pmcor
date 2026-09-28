@@ -1,0 +1,301 @@
+DOI,stage,error,used_pdf_url,source
+10.1007/s10973-018-7959-3,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1016/j.ces.2021.117145,ok,,,cached
+10.2533/chimia.2023.300,ok,,,cached
+10.1016/j.chroma.2018.11.067,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1016/j.chemosphere.2024.143392,ok,,https://europepmc.org/articles/PMC11542678?pdf=render,europepmc
+10.3390/ijms24043731,ok,,https://europepmc.org/articles/PMC9965172?pdf=render,europepmc
+10.1016/j.cej.2023.141418,ok,,,cached
+10.1039/c7ra12460k,ok,,https://europepmc.org/articles/PMC9078182?pdf=render,europepmc
+10.3390/sym12121974,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1007/s00216-020-02923-y,ok,,,cached
+10.1016/j.cattod.2016.06.034,ok,,,cached
+10.1039/c9lc01130g,download_pdf,HTTP 403,,
+10.1002/anie.201800818,ok,,https://europepmc.org/articles/PMC5900731?pdf=render,europepmc
+10.1002/celc.202500181,download_pdf,HTTP 403,,
+10.1002/anie.201802656,download_pdf,HTTP 403,,
+10.1039/d3na00437f,ok,,https://europepmc.org/articles/PMC10563833?pdf=render,europepmc
+10.1039/d4sc01650e,ok,,https://europepmc.org/articles/PMC11268461?pdf=render,europepmc
+10.1039/d2ra02230c,ok,,https://europepmc.org/articles/PMC9215165?pdf=render,europepmc
+10.1016/j.cattod.2020.04.049,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1016/j.ultsonch.2025.107663,ok,,https://europepmc.org/articles/PMC12639626?pdf=render,europepmc
+10.1016/j.ifset.2024.103749,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.3390/molecules28114445,ok,,https://europepmc.org/articles/PMC10254936?pdf=render,europepmc
+10.1016/j.ijoes.2024.100894,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1021/acssuschemeng.0c07932,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1039/c7ra00499k,download_pdf,HTTP 403,,
+10.1039/d0sc05551d,ok,,https://europepmc.org/articles/PMC8179282?pdf=render,europepmc
+10.1021/jacsau.5c00897,ok,,https://europepmc.org/articles/PMC12648305?pdf=render,europepmc
+10.1039/d4ay01511h,download_pdf,Not a PDF (Content-Type=text/html; charset=utf-8) | europepmc: HTTP 403,,
+10.1016/j.cej.2023.148039,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1021/acs.iecr.3c01587,ok,,,cached
+10.1002/cctc.202200768,ok,,,cached
+10.3390/catal11040520,download_pdf,HTTP 403,,
+10.3390/ijms231810252,ok,,https://europepmc.org/articles/PMC9499488?pdf=render,europepmc
+10.1021/acs.iecr.9b01239,ok,,,cached
+10.1002/anie.202003130,ok,,,cached
+10.3390/molecules26102864,ok,,,cached
+10.1021/acscatal.9b01048,download_pdf,Not a PDF (Content-Type=text/html;charset=UTF-8),,
+10.1039/c9qo00493a,download_pdf,HTTP 403,,
+10.1021/acsaem.3c02565,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.3390/catal15040405,download_pdf,HTTP 403,,
+10.1021/acs.oprd.8b00153,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1016/j.saa.2017.10.025,ok,,https://ri.conicet.gov.ar/bitstream/11336/94778/2/CONICET_Digital_Nro.2d1d76c1-0ff5-4316-b5dc-478ae762f535_A.pdf,europepmc
+10.1002/marc.202000029,download_pdf,HTTP 403,,
+10.1016/j.talanta.2018.08.045,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1021/acs.iecr.6b02146,download_pdf,HTTP 403,,
+10.1016/j.cej.2024.151623,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1021/acs.oprd.7b00351,ok,,https://europepmc.org/articles/PMC5997464?pdf=render,europepmc
+10.1021/acssuschemeng.4c03919,ok,,https://europepmc.org/articles/PMC11351704?pdf=render,europepmc
+10.1016/j.cej.2016.09.013,download_pdf,Not a PDF (Content-Type=text/html),,
+10.1021/acs.jpca.3c03650,download_pdf,Not a PDF (Content-Type=text/html; charset=utf-8) | europepmc: HTTP 500,,
+10.1021/acsaem.5c01142,download_pdf,HTTP 403,,
+10.1002/chem.202501257,download_pdf,HTTP 403,,
+10.1016/j.elecom.2023.107545,download_pdf,Not a PDF (Content-Type=image/jpeg),,
+10.1002/rcm.8524,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1016/j.cattod.2023.114503,download_pdf,HTTP 403,,
+10.3390/catal11030341,ok,,,cached
+10.1039/c7ra10008f,download_pdf,HTTP 403,,
+10.1021/acs.jced.3c00738,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1002/adfm.202419499,download_pdf,HTTP 403,,
+10.1002/cptc.201800082,ok,,,cached
+10.1021/acs.oprd.4c00420,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1039/d1ra06263h,ok,,https://europepmc.org/articles/PMC9040641?pdf=render,europepmc
+10.1039/d1cp04614d,ok,,,cached
+10.1021/acspolymersau.5c00071,ok,,https://europepmc.org/articles/PMC12511971?pdf=render,europepmc
+10.1002/adsc.202300024,download_pdf,HTTP 403,,
+10.1002/adfm.202404794,ok,,,cached
+10.1039/d5cc04825g,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1016/j.cej.2020.125333,download_pdf,Not a PDF (Content-Type=text/html; charset=utf-8),,
+10.1016/j.ceja.2025.100857,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1016/j.cej.2022.140208,ok,,,cached
+10.1055/s-0036-1588527,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1002/cite.202100005,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1016/j.cej.2021.129363,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1021/acs.iecr.7b03056,download_pdf,Not a PDF (Content-Type=text/html; charset=UTF-8),,
+10.1039/d2cc05601a,download_pdf,HTTP 403,,
+10.1038/s41467-024-48723-1,ok,,,cached
+10.1021/acssuschemeng.9b04347,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1002/asia.202300405,download_pdf,HTTP 503,,
+10.37358/rc.18.11.6678,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1021/acspolymersau.4c00074,ok,,,cached
+10.1021/acs.analchem.7b04992,download_pdf,Unpaywall returned no direct PDF URL | openalex: HTTP 401,,
+10.1039/c7ra11413c,download_pdf,HTTP 403,,
+10.1016/j.chemosphere.2025.144279,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1002/anie.201801424,download_pdf,HTTP 403,,
+10.1039/c9cc08421e,download_pdf,HTTP 403,,
+10.1002/anie.201810331,ok,,https://publikationen.bibliothek.kit.edu/1000090456/151521770,europepmc
+10.21123/bsj.2024.8926,download_pdf,HTTP 404,,
+10.1039/d2an00895e,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.9767/bcrec.13.2.1307.227-235,download_pdf,Not a PDF (Content-Type=text/html),,
+10.1021/acssuschemeng.5c04752,ok,,https://europepmc.org/articles/PMC12486436?pdf=render,europepmc
+10.1039/d5cc02423d,download_pdf,HTTP 403,,
+10.3390/catal11070814,ok,,,cached
+10.1007/s43630-024-00544-3,ok,,,cached
+10.1177/1468678319870327,download_pdf,HTTP 403,,
+10.1039/d4ra06403h,ok,,https://europepmc.org/articles/PMC11521107?pdf=render,europepmc
+10.1016/j.ces.2017.04.040,download_pdf,"<urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>",,
+10.1016/j.cej.2017.05.017,download_pdf,HTTP 403,,
+10.1016/j.talo.2020.100016,download_pdf,HTTP 403,,
+10.1021/acsomega.4c03251,ok,,https://europepmc.org/articles/PMC11270568?pdf=render,europepmc
+10.1038/s41467-022-31634-4,ok,,,cached
+10.1038/s42004-025-01698-6,ok,,,cached
+10.1016/j.jelechem.2022.116481,download_pdf,HTTP 403,,
+10.1038/ncomms14676,ok,,,cached
+10.1002/celc.202000696,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1039/d0re00206b,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1016/j.xcrp.2024.101838,ok,,,cached
+10.1021/acssuschemeng.5c03392,ok,,https://europepmc.org/articles/PMC12326389?pdf=render,europepmc
+10.1039/d5sc02594j,ok,,https://europepmc.org/articles/PMC12127824?pdf=render,europepmc
+10.1002/anie.202100577,ok,,https://europepmc.org/articles/PMC8251717?pdf=render,europepmc
+10.1002/adsc.202000058,download_pdf,HTTP 403,,
+10.1002/open.202200232,ok,,https://europepmc.org/articles/PMC9716036?pdf=render,europepmc
+10.1002/cctc.201901560,ok,,,cached
+10.1021/jacs.3c07436,ok,,https://europepmc.org/articles/PMC10603815?pdf=render,europepmc
+10.3390/molecules26113472,ok,,https://europepmc.org/articles/PMC8201297?pdf=render,europepmc
+10.1002/cjoc.202400725,download_pdf,HTTP 403,,
+10.1016/j.microc.2019.02.043,download_pdf,HTTP 403,,
+10.21123/2411-7986.5073,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1515/cpe-2017-0007,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.26599/pom.2025.9140107,ok,,,cached
+10.1016/j.seppur.2023.124233,download_pdf,Not a PDF (Content-Type=text/html; charset=utf-8),,
+10.1002/smll.201702724,download_pdf,Unpaywall returned no direct PDF URL | europepmc: HTTP 500,,
+10.1002/open.201600166,ok,,https://europepmc.org/articles/PMC5390790?pdf=render,europepmc
+10.1002/anie.202302979,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1039/c9re00087a,download_pdf,HTTP 403,,
+10.1002/ceat.202000371,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1016/j.cej.2020.127048,download_pdf,HTTP 403,,
+10.1002/chem.202304011,download_pdf,HTTP 403,,
+10.1038/s42004-021-00538-7,ok,,,cached
+10.1021/acs.orglett.5c00842,ok,,https://europepmc.org/articles/PMC11976859?pdf=render,europepmc
+10.1016/j.jcat.2021.09.006,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1002/anie.201909424,download_pdf,Not a PDF (Content-Type=text/html; charset=utf-8),,
+10.1039/d3re00570d,download_pdf,HTTP 403,,
+10.1002/anie.202010429,ok,,,cached
+10.1021/acssuschemeng.7b04012,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1039/d2ma00051b,ok,,https://europepmc.org/articles/PMC9555226?pdf=render,europepmc
+10.1039/c8lc00114f,download_pdf,HTTP 403,,
+10.1021/acsomega.9b00707,ok,,https://europepmc.org/articles/PMC6649293?pdf=render,europepmc
+10.1021/acs.langmuir.8b02420,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1039/d0na01051k,ok,,https://europepmc.org/articles/PMC9419594?pdf=render,europepmc
+10.1016/j.cherd.2017.03.029,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.4025/actascitechnol.v46i1.63530,ok,,,cached
+10.1039/c9ta11781d,download_pdf,HTTP 403 | openalex: HTTP 403,,
+10.1021/acsomega.5c07359,ok,,https://europepmc.org/articles/PMC12444502?pdf=render,europepmc
+10.1021/acssuschemeng.4c04834,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1016/j.seppur.2024.129353,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1002/cctc.202400092,ok,,,cached
+10.1039/d5dd00099h,download_pdf,HTTP 403,,
+10.1021/acs.macromol.3c00780,download_pdf,Not a PDF (Content-Type=text/html; charset=utf-8) | europepmc: HTTP 500,,
+10.1016/j.cej.2017.02.003,download_pdf,Not a PDF (Content-Type=text/html; charset=utf-8),,
+10.1016/j.ceja.2023.100483,download_pdf,Not a PDF (Content-Type=text/html; charset=utf-8),,
+10.1016/j.chemosphere.2019.125758,ok,,,cached
+10.1039/d3na00413a,ok,,https://europepmc.org/articles/PMC10496889?pdf=render,europepmc
+10.1016/j.biosx.2025.100688,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1039/c8ay01934g,download_pdf,Not a PDF (Content-Type=text/html; charset=utf-8),,
+10.1002/chem.202401402,download_pdf,HTTP 403,,
+10.1002/slct.201900342,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1021/acsomega.3c03653,ok,,https://europepmc.org/articles/PMC10468771?pdf=render,europepmc
+10.5194/ar-3-569-2025,ok,,,cached
+10.1021/acsabm.9b00218,download_pdf,Unpaywall returned no direct PDF URL | europepmc: HTTP 403,,
+10.1039/d0re00329h,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1021/jacsau.4c00902,download_pdf,Not a PDF (Content-Type=text/html; charset=utf-8) | europepmc: HTTP 500,,
+10.1016/j.talanta.2021.122396,download_pdf,Unpaywall returned no direct PDF URL | europepmc: HTTP 500,,
+10.31489/2959-0663/2-25-1,download_pdf,HTTP 404,,
+10.1016/j.jfluchem.2024.110349,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1039/d3re00191a,download_pdf,HTTP 403,,
+10.3390/ijms25126737,ok,,https://europepmc.org/articles/PMC11203405?pdf=render,europepmc
+10.1021/acs.joc.3c01281,ok,,https://europepmc.org/articles/PMC10729024?pdf=render,europepmc
+10.1007/s41981-023-00279-9,ok,,,cached
+10.3390/molecules27196459,ok,,https://europepmc.org/articles/PMC9571435?pdf=render,europepmc
+10.1038/s41467-024-45516-4,ok,,,cached
+10.1021/acsomega.0c01835,ok,,https://europepmc.org/articles/PMC7557226?pdf=render,europepmc
+10.5599/admet.2774,ok,,,cached
+10.1039/c8lc00675j,ok,,,cached
+10.1021/acs.orglett.4c00644,ok,,https://europepmc.org/articles/PMC11041934?pdf=render,europepmc
+10.1016/j.cej.2019.05.050,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1016/j.jphotochem.2016.08.010,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1039/d5eb00188a,ok,,,cached
+10.1016/j.cej.2022.138942,download_pdf,HTTP 403,,
+10.1039/d2ra04727f,ok,,https://europepmc.org/articles/PMC9551675?pdf=render,europepmc
+10.1039/c9sc01415b,ok,,https://europepmc.org/articles/PMC6837175?pdf=render,europepmc
+10.3390/polym16040491,ok,,https://europepmc.org/articles/PMC10892803?pdf=render,europepmc
+10.1039/c7ra00127d,download_pdf,HTTP 403 | openalex: <urlopen error [Errno 11001] getaddrinfo failed>,,
+10.1021/acs.oprd.0c00239,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.3390/catal13060932,download_pdf,HTTP 403,,
+10.17344/acsi.2022.7648,ok,,,cached
+10.1021/acs.oprd.3c00498,ok,,https://europepmc.org/articles/PMC11110071?pdf=render,europepmc
+10.1021/acs.iecr.9b02757,ok,,,cached
+10.1002/cmtd.202100098,ok,,,cached
+10.1016/j.seppur.2024.128543,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1039/c8tc00859k,download_pdf,The read operation timed out,,
+10.1007/s41981-022-00224-2,ok,,,cached
+10.3390/catal10111278,download_pdf,HTTP 403,,
+10.1039/d4ra02355b,ok,,https://europepmc.org/articles/PMC11113006?pdf=render,europepmc
+10.1016/j.cej.2024.156260,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1016/j.cej.2025.159688,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1134/s1061934824701909,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1039/d4lc00178h,ok,,,cached
+10.1021/acsomega.9b00286,ok,,https://europepmc.org/articles/PMC6648689?pdf=render,europepmc
+10.1039/d0re00081g,download_pdf,HTTP 403,,
+10.3390/molecules29102350,ok,,https://europepmc.org/articles/PMC11123959?pdf=render,europepmc
+10.6060/ivkkt.20216412.5y,download_pdf,"<urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>",,
+10.3390/catal12091065,download_pdf,HTTP 403,,
+10.1021/acs.orglett.4c03091,ok,,https://europepmc.org/articles/PMC11519923?pdf=render,europepmc
+10.3762/bjoc.18.67,ok,,,cached
+10.1002/cmtd.202000051,download_pdf,HTTP 403,,
+10.1016/j.cep.2022.109198,download_pdf,Not a PDF (Content-Type=text/html; charset=utf-8),,
+10.1063/1.5024249,ok,,https://authors.library.caltech.edu/records/1pyjs-ds667/files/1.5024249.pdf?download=1,europepmc
+10.3390/molecules28237883,ok,,https://europepmc.org/articles/PMC10707867?pdf=render,europepmc
+10.1039/d1ra08111j,ok,,https://europepmc.org/articles/PMC8979102?pdf=render,europepmc
+10.3866/pku.whxb202305012,download_pdf,HTTP 412,,
+10.1002/ejoc.201700824,download_pdf,HTTP 403,,
+10.1016/j.supflu.2024.106195,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1016/j.cej.2025.164789,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.3390/s17102401,ok,,https://europepmc.org/articles/PMC5677385?pdf=render,europepmc
+10.1039/d1re00191d,download_pdf,HTTP 403,,
+10.1016/j.biosx.2025.100670,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1016/j.ultsonch.2019.02.016,download_pdf,HTTP 403,,
+10.1039/d4su00293h,download_pdf,HTTP 403,,
+10.3390/catal12010019,download_pdf,HTTP 403,,
+10.1039/d5re00176e,download_pdf,HTTP 403,,
+10.1021/acs.jpca.2c01946,ok,,,cached
+10.1002/anie.202205606,download_pdf,Unpaywall returned no direct PDF URL | europepmc: HTTP 500,,
+10.1016/j.cattod.2020.05.058,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.2109/jcersj2.18069,ok,,,cached
+10.1002/cctc.202500611,download_pdf,HTTP 403,,
+10.1002/rcm.10057,ok,,https://europepmc.org/articles/PMC12035988?pdf=render,europepmc
+10.1021/acsomega.1c06178,ok,,https://europepmc.org/articles/PMC8867482?pdf=render,europepmc
+10.1016/j.ces.2024.119956,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1039/c7lc00918f,download_pdf,HTTP 403,,
+10.1021/acsomega.5c00377,ok,,https://europepmc.org/articles/PMC12019436?pdf=render,europepmc
+10.1016/j.chempr.2022.05.003,download_pdf,HTTP 403,,
+10.1021/acsomega.0c02217,ok,,https://europepmc.org/articles/PMC7377323?pdf=render,europepmc
+10.1016/j.jpowsour.2018.08.031,ok,,https://europepmc.org/articles/PMC6358148?pdf=render,europepmc
+10.3390/methane3010004,download_pdf,HTTP 403,,
+10.1016/j.cherd.2023.07.042,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1016/j.cej.2018.03.167,ok,,,cached
+10.1039/d5ra04274g,ok,,https://europepmc.org/articles/PMC12262116?pdf=render,europepmc
+10.1021/acsomega.9b03819,ok,,https://europepmc.org/articles/PMC7057696?pdf=render,europepmc
+10.1021/acs.analchem.4c06230,ok,,https://europepmc.org/articles/PMC12199231?pdf=render,europepmc
+10.1002/adsc.202200124,download_pdf,HTTP 403,,
+10.1021/acs.analchem.1c03800,ok,,,cached
+10.1021/acssuschemeng.5c05942,ok,,https://europepmc.org/articles/PMC12606713?pdf=render,europepmc
+10.1016/j.cesx.2019.100024,ok,,,cached
+10.3389/fchem.2023.1326131,ok,,,cached
+10.1007/s11144-020-01761-4,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1021/acsomega.9b02597,download_pdf,HTTP 403 | europepmc: HTTP 500,,
+10.1016/j.microc.2016.07.023,download_pdf,HTTP 403,,
+10.1021/jacs.0c09556,ok,,https://escholarship.org/content/qt8fr78520/qt8fr78520.pdf,europepmc
+10.31788/rjc.2025.1839289,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1021/acsomega.5c02481,ok,,https://europepmc.org/articles/PMC12290618?pdf=render,europepmc
+10.1021/acs.oprd.0c00061,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.3390/catal9030208,download_pdf,HTTP 403,,
+10.1021/acssuschemeng.1c02084,ok,,,cached
+10.3390/molecules25122945,ok,,https://europepmc.org/articles/PMC7356006?pdf=render,europepmc
+10.3390/catal10080889,download_pdf,HTTP 403,,
+10.3390/catal12091059,download_pdf,HTTP 403,,
+10.1016/j.ceja.2021.100191,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1021/acsomega.9b04433,ok,,https://europepmc.org/articles/PMC7203689?pdf=render,europepmc
+10.1021/acs.joc.1c01621,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1002/ejoc.201901793,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1186/s40543-025-00477-1,ok,,,cached
+10.1021/jacsau.3c00261,ok,,https://europepmc.org/articles/PMC10466318?pdf=render,europepmc
+10.1007/s11244-018-1061-8,ok,,,cached
+10.1016/j.cep.2018.02.018,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1080/17518253.2017.1342001,download_pdf,HTTP 403,,
+10.1016/j.ceja.2025.100905,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1002/chem.201701551,download_pdf,HTTP 401 | openalex: HTTP 403,,
+10.1016/j.cej.2018.09.129,ok,,,cached
+10.1021/acs.joc.2c00963,ok,,https://europepmc.org/articles/PMC9251729?pdf=render,europepmc
+10.1021/acsomega.2c01178,ok,,https://europepmc.org/articles/PMC9260755?pdf=render,europepmc
+10.1039/c9ra07470h,ok,,https://europepmc.org/articles/PMC9048752?pdf=render,europepmc
+10.1007/s11244-022-01762-8,ok,,,cached
+10.1016/j.ejpe.2015.03.017,download_pdf,HTTP 403,,
+10.1252/jcej.17we173,ok,,,cached
+10.3390/ijms25115958,ok,,https://europepmc.org/articles/PMC11172857?pdf=render,europepmc
+10.1039/d0re00391c,download_pdf,Not a PDF (Content-Type=application/vnd.openxmlformats-officedocument.wordprocessingml.document),,
+10.1016/j.cej.2022.139063,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1016/j.talanta.2024.126504,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1007/s11244-023-01833-4,ok,,,cached
+10.1039/d1ra00827g,ok,,https://europepmc.org/articles/PMC9031023?pdf=render,europepmc
+10.1016/j.ejmcr.2021.100014,download_pdf,HTTP 403,,
+10.1002/chem.202500311,ok,,https://europepmc.org/articles/PMC12057612?pdf=render,europepmc
+10.1039/d4re00047a,ok,,,cached
+10.1071/ch25147,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1016/j.ceja.2021.100205,download_pdf,HTTP 403,,
+10.1002/adfm.202108687,ok,,,cached
+10.1039/d3re00696d,download_pdf,HTTP 403,,
+10.1021/acs.jpca.2c00766,download_pdf,HTTP 403,,
+10.1039/d1sc05840a,ok,,,cached
+10.1016/j.cep.2018.02.017,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1016/j.ultsonch.2025.107416,ok,,https://europepmc.org/articles/PMC12171622?pdf=render,europepmc
+10.24820/ark.5550190.p011.367,ok,,,cached
+10.1016/j.ces.2023.118572,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1039/d2ra03448d,ok,,https://europepmc.org/articles/PMC9344901?pdf=render,europepmc
+10.1016/s1872-2067(24)60085-9,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1021/acs.oprd.3c00397,download_pdf,HTTP 403,,
+10.1016/j.chemosphere.2022.137681,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1039/d5ra01510c,ok,,https://europepmc.org/articles/PMC12143398?pdf=render,europepmc
+10.1016/j.colsurfa.2025.137345,no_pdf_url,Unpaywall returned no direct PDF URL,,
+10.1002/anie.202416875,download_pdf,HTTP 403,,

@@ -1,0 +1,15 @@
+{
+  "name": "NaBH4 reduction, batch (Prieschl 2020, ESI Table S7)",
+  "mode": "batch",
+  "source": "Prieschl et al., Green Chem., 2020, 22, 5762, ESI Table S7. Reported PMI reaction 23, work-up 110, total 133.",
+  "declared_boundary": ["reaction", "workup"],
+  "materials": [
+    {"name": "ethyl 2,2-difluoro-2-phenylacetate", "mass_g": 1.46, "role": "reactant"},
+    {"name": "NaBH4", "mass_g": 0.276, "role": "reagent"},
+    {"name": "methanol", "volume_mL": 25.0, "role": "solvent"},
+    {"name": "NH4Cl", "mass_g": 3.28, "stage": "workup", "role": "reagent"},
+    {"name": "ethyl acetate", "volume_mL": 50.0, "stage": "workup", "role": "extraction"},
+    {"name": "water", "volume_mL": 53.0, "stage": "workup", "role": "wash"}
+  ],
+  "product": {"name": "2,2-difluoro-2-phenylethanol", "mass_g": 0.934, "yield_type": "isolated"}
+}

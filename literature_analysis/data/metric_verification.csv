@@ -1,0 +1,9 @@
+DOI,rule,context,verdict
+10.1016/j.cesx.2019.100024,value,life-cycle assessment of solvents reporting CED and GWP values,genuine
+10.1016/j.chemosphere.2024.143392,value,"specific energy consumption of the treatment, 1.54-22.18 kWh m-3",genuine
+10.1007/s41981-023-00279-9,mention,reaction PMI lowered from 2.56 to 2.25 g/g by catalyst recovery,genuine
+10.1016/j.chemosphere.2019.125758,mention,"energy cost per treatment in euros, from measured energy use",energy-cost estimate
+10.3390/molecules25122945,value,projected treatment energy cost from literature kJ/gCOD values,energy-cost estimate
+10.1002/cctc.202200768,value,cites literature statistics on PMI composition and E-factor ranges,no own value
+10.1021/acs.joc.3c01281,value,number matched is a citation marker,no own value
+10.2533/chimia.2023.300,mention,E-factor named as a possible optimisation objective,no own value

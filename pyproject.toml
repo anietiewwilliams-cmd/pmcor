@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pmcor"
+version = "0.1.0"
+description = "Plan-Measure-Compute-Optimize/Report: boundary-aware green metrics for flow chemistry records"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Anietie W. Williams"}, {name = "Faith M. Wariri"}, {name = "Kerry M. Gilmore"}]
+dependencies = []
+
+[project.optional-dependencies]
+plot = ["matplotlib>=3.5"]
+test = ["pytest"]
+
+[project.scripts]
+pmcor = "pmcor.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

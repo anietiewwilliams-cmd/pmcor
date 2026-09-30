@@ -1,0 +1,31 @@
+{
+  "name": "Artemisinin from crude A. annua extract, flow (Triemer 2018)",
+  "mode": "flow",
+  "source": "S. Triemer, K. Gilmore, G. T. Vu, P. H. Seeberger and A. Seidel-Morgenstern, Angew. Chem. Int. Ed., 2018, 57, 5525. Main text Fig. 4; ESI Sections 2.2, 3.2, 3.3.2 and Table S9 (NaHCO3 quench).",
+  "basis": "1.00 mmol DHAA",
+  "declared_boundary": ["reaction"],
+  "flow_streams": [
+    {"name": "extract feed", "flow_rate_mL_min": 0.2, "solvent": "toluene",
+     "solutes": [
+       {"name": "dihydroartemisinic acid (DHAA)", "formula": "C15H24O2", "conc_M": 0.5, "role": "reactant"},
+       {"name": "trifluoroacetic acid", "formula": "C2HF3O2", "conc_M": 0.375, "role": "reagent"}]}
+  ],
+  "run_basis": {"solute": "dihydroartemisinic acid (DHAA)", "mmol": 1.0},
+  "materials": [
+    {"name": "O2 (5.6 NmL/min, 7 bar)", "formula": "O2", "mmol": 2.50, "role": "reactant",
+     "note": "5.6 NmL/min / 22.414 L/mol over the 10 min needed to deliver 1 mmol DHAA"},
+    {"name": "dried A. annua leaves (extracted)", "mass_g": 0.354, "role": "catalyst",
+     "note": "96 g leaves per 542 mL toluene extract (ESI 2.2) x 2.0 mL feed; source of the chlorophyll photosensitiser"}
+  ],
+  "product": {"name": "artemisinin", "formula": "C15H22O5", "yield_pct": 67, "limiting_mmol": 1.0, "yield_type": "assay"},
+  "ae_reactants": [{"formula": "C15H24O2"}, {"formula": "O2", "coeff": 2}],
+  "energy": [
+    {"device": "420 nm LED module (36.3 V x 2.1 A)", "power_W": 76.23, "duration": "run_time", "source": "nameplate"}
+  ],
+  "notes": [
+    "Feed volume taken as toluene (upper bound; dissolved DHAA and TFA occupy part of the 2.0 mL).",
+    "Native DHAA in the extract (3.11 mM) is <1% of the 0.5 M feed and is neglected; DHAA was added as a purified solid.",
+    "The -20 C cooling bath (immersion cooler) is not inventoried; its energy is not reported.",
+    "Aqueous NaHCO3 quench volume not stated; reaction-step boundary only."
+  ]
+}

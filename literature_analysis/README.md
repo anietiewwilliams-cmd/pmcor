@@ -41,4 +41,4 @@ python 07_hand_labels.py     # runs from data/ alone
 
 ## Hand labels
 
-`data/hand_labels_85.csv` is a random sample of 85 abstracts (60 flagged and 25 not flagged by the improvement rule) labelled blind to the rule output. `data/hand_labels_134.csv` holds labels for the abstracts of all 134 full-text papers. Label Y means the abstract claims an advantage of the flow or continuous process over batch or conventional processing, stated explicitly or clearly implied. `data/metric_verification.csv` records the reading of every full text that mentions a green metric.
+`data/hand_labels_85.csv` is a random sample of 85 records (60 flagged and 25 not flagged by the improvement rule, which is applied to title, abstract and keyword metadata); their abstracts were labelled blind to the rule output. `data/hand_labels_134.csv` holds labels for the abstracts of all 134 full-text papers. Label Y means the abstract claims an advantage of the flow or continuous process over batch or conventional processing, stated explicitly or clearly implied. `data/metric_verification.csv` records the reading of every full text that mentions a green metric.

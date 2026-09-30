@@ -67,10 +67,11 @@ This repository accompanies A. W. Williams, F. M. Wariri and K. M. Gilmore, "Is 
 
 ```bash
 python scripts/thesis_casestudies.py   # writes results/summary.md, CSVs and figures/
+python scripts/triemer_sweep.py        # Fig. 7
 pytest -q
 ```
 
-The artemisinin record (Fig. 7 and the fourth row of Fig. 8 in the Perspective) is part of a manuscript in preparation and is not included in this release.
+The artemisinin case (Fig. 7) uses the published inventory of Triemer et al., *Angew. Chem. Int. Ed.*, 2018, **57**, 5525: `examples/lit_triemer_artemisinin.json`, `examples/lit_triemer_photooxidation.json` and `scripts/triemer_sweep.py`.
 
 The literature analysis (the metrics-gap survey) is in [`literature_analysis/`](literature_analysis/README.md).
 

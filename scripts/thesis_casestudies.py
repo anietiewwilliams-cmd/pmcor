@@ -1,6 +1,5 @@
 """
-NOTE: the artemisinin record (Fig. 7 and the fourth row of Fig. 8 in the Perspective) is part of a manuscript
-in preparation and is not included in this release.
+NOTE: the artemisinin case (Fig. 7) is a literature record; see scripts/triemer_sweep.py.
 Reproduce every number and figure in the Perspective's worked examples.
 
 Run:  python scripts/thesis_casestudies.py   (writes results/ and figures/)
@@ -140,10 +139,10 @@ fig.tight_layout(); fig.savefig(FIG / "fig5_ch3_boundary.png"); plt.close(fig)
 
 # ---- Fig. 6: audit card heatmap + PMI composition
 order = ["Ch3 batch (opt.)", "Ch3 flow (entry 5)", "Ch4 hydroamination"]  # own records only; literature is not scored (see text)
-short = {"Ch3 batch (opt.)": "Ch3 SRN1 — batch", "Ch3 flow (entry 5)": "Ch3 SRN1 — flow",
-         "Ch4 hydroamination": "Ch4 hydroamination"}
+short = {"Ch3 batch (opt.)": "SRN1 amination, batch", "Ch3 flow (entry 5)": "SRN1 amination, flow",
+         "Ch4 hydroamination": "Hydroamination"}
 fig = plt.figure(figsize=(7.1, 2.6))
-gs = fig.add_gridspec(1, 2, width_ratios=[1.15, 1], wspace=0.55)
+gs = fig.add_gridspec(1, 2, width_ratios=[1.15, 1], wspace=1.0)
 axh = fig.add_subplot(gs[0]); axp = fig.add_subplot(gs[1])
 keys = [k for k, _ in CARD_ITEMS]
 colhead = ["Boundary declared", "Isolated mass", "PMI by stage", "E-factor by class", "SI + CHEM21 class",

@@ -1,0 +1,24 @@
+{
+  "name": "DHAA photo-oxidation in crude A. annua extract, flow (Triemer 2018, ESI Table S4)",
+  "mode": "flow",
+  "source": "S. Triemer et al., Angew. Chem. Int. Ed., 2018, 57, 5525; ESI Table S4 (undiluted extract, 0.5 M DHAA, 7 bar, 660 nm, 25 C, 5 mL photoreactor, liquid:O2 = 1:4 v/v). Template at 0.2 mL/min; other flow rates in scripts/triemer_sweep.py.",
+  "basis": "1.00 mmol DHAA",
+  "declared_boundary": ["reaction"],
+  "flow_streams": [
+    {"name": "extract feed", "flow_rate_mL_min": 0.2, "solvent": "toluene",
+     "solutes": [{"name": "dihydroartemisinic acid (DHAA)", "formula": "C15H24O2", "conc_M": 0.5, "role": "reactant"}]}
+  ],
+  "run_basis": {"solute": "dihydroartemisinic acid (DHAA)", "mmol": 1.0},
+  "materials": [
+    {"name": "O2 (4 x liquid flow at 7 bar, 25 C)", "formula": "O2", "mmol": 2.29, "role": "reactant",
+     "note": "7 atm x 4 V_liq / RT; 2.29 equiv. at every flow rate"},
+    {"name": "dried A. annua leaves (extracted)", "mass_g": 0.354, "role": "catalyst",
+     "note": "96 g leaves per 542 mL extract (ESI 2.2) x 2.0 mL feed"}
+  ],
+  "product": {"name": "tertiary hydroperoxide PO1", "formula": "C15H24O4", "yield_pct": 84.1, "limiting_mmol": 1.0, "yield_type": "assay"},
+  "ae_reactants": [{"formula": "C15H24O2"}, {"formula": "O2"}],
+  "energy": [
+    {"device": "660 nm LED module (36.3 V x 2.1 A)", "power_W": 76.23, "duration": "run_time", "source": "nameplate"}
+  ],
+  "notes": ["Photo-oxidation step only; cooling and gas delivery not inventoried."]
+}

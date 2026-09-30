@@ -108,3 +108,11 @@ def test_zielke_hu331_flow_from_esi():
     r = compute(load(EX / "lit_zielke_hu331_flow_esi.json"), ["reaction", "workup"])
     assert r.pmi_by_stage["reaction"] == pytest.approx(10.1, rel=0.05)
     assert r.pmi == pytest.approx(37.9, rel=0.10)
+
+
+def test_triemer_artemisinin_literature_record():
+    p = pmcor.load(EX / "lit_triemer_artemisinin.json")
+    r = pmcor.compute(p)
+    assert round(r.pmi, 1) == 13.2
+    assert round(r.atom_economy, 1) == 94.0
+    assert round(r.energy_intensity) == 67

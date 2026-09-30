@@ -437,7 +437,7 @@ def plot_three_figures_abs_vs_full(merged_df: pd.DataFrame, outdir: Path) -> Non
     # ---------- FIGURE C: 3-category (metrics > proxy > none) ----------
     def classify_three(mets: pd.Series, proxy: pd.Series) -> pd.Series:
         cat = pd.Series(index=mets.index, dtype="object")
-        cat.loc[mets] = "Quantifies green metrics"
+        cat.loc[mets] = "Green metric (term in metadata; value in full text)"  # metadata: metric-term mention; full text: reported value
         cat.loc[~mets & ~proxy] = "No explicit improvement"
         cat.loc[~mets & proxy] = "Reports improvement vs batch (proxy)"
         return cat
@@ -446,12 +446,12 @@ def plot_three_figures_abs_vs_full(merged_df: pd.DataFrame, outdir: Path) -> Non
         merged_df["mentions_metrics_terms_abstract"],
         merged_df["proxy_improvement_abstract"]
     )
-    # For full text, use QUANTIFIED metrics (stronger evidence)
+    # For full text, require a reported value (keyword + number within 60 characters)
     cat_full = classify_three(
         merged_df["quantifies_any_metric_fulltext"],
         merged_df["proxy_improvement_fulltext"]
     )
-    order = ["Quantifies green metrics", "No explicit improvement", "Reports improvement vs batch (proxy)"]
+    order = ["Green metric (term in metadata; value in full text)", "No explicit improvement", "Reports improvement vs batch (proxy)"]
     pct_abs = (cat_abs.value_counts(normalize=True) * 100).reindex(order).fillna(0)
     pct_full = (cat_full.value_counts(normalize=True) * 100).reindex(order).fillna(0)
     n_abs = cat_abs.value_counts().reindex(order).fillna(0).astype(int)

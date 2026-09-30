@@ -10,6 +10,8 @@
 | NaBH4 reduction, batch (Prieschl 2020, ESI Table S7) | batch | reaction+workup | 131.4 | 130.4 | 126.1 | 95.9 | — | — | 64.0 | Recommended |
 | Ru-MACHO ester hydrogenation, flow (Prieschl 2020) | flow | reaction | 6.5 | 5.5 | 5.1 | 78.4 | — | 77.4 | 74.9 | Recommended |
 | Ru-MACHO ester hydrogenation, flow long run (Prieschl 2020, ESI Table S5) | flow | reaction+workup | 14.7 | 13.7 | 13.3 | 90.5 | — | — | 75.3 | Recommended |
+| Artemisinin from crude A. annua extract, flow (Triemer 2018) | flow | reaction | 13.2 | 12.2 | 9.2 | 69.6 | 67.0 | 94.0 | 59.8 | Problematic |
+| DHAA photo-oxidation in crude A. annua extract, flow (Triemer 2018, ESI Table S4) | flow | reaction | 10.6 | 9.6 | 7.7 | 72.3 | 56.0 | 100.0 | 72.9 | Problematic |
 | HU-331 — batch (Zielke 2025) | batch | reaction+workup | 787.0 | 786.0 | nan | nan | — | — | — | — |
 | HU-331 — flow (Zielke 2025) | flow | reaction+workup | 37.9 | 36.9 | nan | nan | — | — | — | — |
 | CBD to HU-331 aerobic oxidation, flow scale-out (Zielke 2025, ESI 2.1) | flow | reaction+workup | 35.0 | 34.0 | 32.9 | 94.1 | — | — | 93.7 | Recommended |
@@ -109,6 +111,34 @@ PMI by stage: reaction 6.5, workup 8.2
 Solvent by CHEM21 class (g/g): Recommended 13.3
   ! No energy inventory: energy intensity not determinable.
 Reporting card: ✓ boundary, ✓ isolated, ✓ pmi_stage, ✓ efactor_class, ✓ si, ✗ energy, ✗ recovery, ✓ no_assumed
+```
+
+```
+== Artemisinin from crude A. annua extract, flow (Triemer 2018) (flow; boundary: reaction) ==
+Product: 189.2 mg (assay)
+PMI 13.2 | E-factor 12.2 (dry 12.2) | SI 9.2 (69.6% of inputs)
+PMI by stage: reaction 13.2
+Energy 0.013 kWh -> 67 kWh/kg (nameplate)
+AE 94.0% | RME 59.8%
+Solvent by CHEM21 class (g/g): Problematic 9.2
+  ! Product mass is an assay yield, not isolated; PMI is a lower bound.
+  ! Boundary is reaction-step only; workup/purification excluded.
+  ! Energy from nameplate values, not metered.
+Reporting card: ✓ boundary, ✗ isolated, ✗ pmi_stage, ✓ efactor_class, ✓ si, ✓ energy, ✗ recovery, ✓ no_assumed
+```
+
+```
+== DHAA photo-oxidation in crude A. annua extract, flow (Triemer 2018, ESI Table S4) (flow; boundary: reaction) ==
+Product: 225.7 mg (assay)
+PMI 10.6 | E-factor 9.6 (dry 9.6) | SI 7.7 (72.3% of inputs)
+PMI by stage: reaction 10.6
+Energy 0.013 kWh -> 56 kWh/kg (nameplate)
+AE 100.0% | RME 72.9%
+Solvent by CHEM21 class (g/g): Problematic 7.7
+  ! Product mass is an assay yield, not isolated; PMI is a lower bound.
+  ! Boundary is reaction-step only; workup/purification excluded.
+  ! Energy from nameplate values, not metered.
+Reporting card: ✓ boundary, ✗ isolated, ✗ pmi_stage, ✓ efactor_class, ✓ si, ✓ energy, ✗ recovery, ✓ no_assumed
 ```
 
 ```
